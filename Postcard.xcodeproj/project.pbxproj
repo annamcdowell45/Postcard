@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE015E4319D5D47100F47DFF /* scene1.html in Resources */ = {isa = PBXBuildFile; fileRef = EE015E4219D5D47100F47DFF /* scene1.html */; };
+		EE015E4519D5D4EB00F47DFF /* Landscape-wallpapers-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE015E4419D5D4EB00F47DFF /* Landscape-wallpapers-1.jpg */; };
 		EE71E84619D334B300B0E899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE71E84519D334B300B0E899 /* AppDelegate.swift */; };
 		EE71E84819D334B300B0E899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE71E84719D334B300B0E899 /* ViewController.swift */; };
 		EE71E84B19D334B300B0E899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE71E84919D334B300B0E899 /* Main.storyboard */; };
 		EE71E84D19D334B300B0E899 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE71E84C19D334B300B0E899 /* Images.xcassets */; };
 		EE71E85019D334B300B0E899 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE71E84E19D334B300B0E899 /* LaunchScreen.xib */; };
 		EE71E85C19D334B300B0E899 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE71E85B19D334B300B0E899 /* PostcardTests.swift */; };
+		EE82A76A19DB158B000F30C1 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE82A76919DB158B000F30C1 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE015E4219D5D47100F47DFF /* scene1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = scene1.html; sourceTree = "<group>"; };
+		EE015E4419D5D4EB00F47DFF /* Landscape-wallpapers-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Landscape-wallpapers-1.jpg"; sourceTree = "<group>"; };
 		EE71E84019D334B300B0E899 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE71E84419D334B300B0E899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE71E84519D334B300B0E899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,7 @@
 		EE71E85519D334B300B0E899 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE71E85A19D334B300B0E899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE71E85B19D334B300B0E899 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		EE82A76919DB158B000F30C1 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		EE71E84319D334B300B0E899 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE82A76919DB158B000F30C1 /* AlbertEinsteinStamp.jpg */,
+				EE015E4419D5D4EB00F47DFF /* Landscape-wallpapers-1.jpg */,
+				EE015E4219D5D47100F47DFF /* scene1.html */,
 				EE71E84419D334B300B0E899 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +202,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE71E84B19D334B300B0E899 /* Main.storyboard in Resources */,
+				EE015E4319D5D47100F47DFF /* scene1.html in Resources */,
 				EE71E85019D334B300B0E899 /* LaunchScreen.xib in Resources */,
+				EE015E4519D5D4EB00F47DFF /* Landscape-wallpapers-1.jpg in Resources */,
+				EE82A76A19DB158B000F30C1 /* AlbertEinsteinStamp.jpg in Resources */,
 				EE71E84D19D334B300B0E899 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +417,7 @@
 				EE71E86119D334B300B0E899 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE71E86219D334B300B0E899 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				EE71E86419D334B300B0E899 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
